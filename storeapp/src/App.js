@@ -26,17 +26,9 @@ export default function App() {
   };
 
   return (
-    <div style={{ minHeight: '100vh', background: '#e0e0e5', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+    <div style={{ }}>
       <div className={`phone-shell${isDark ? ' dark' : ''}`}>
-        {/* Status bar */}
-        <div className={`status-bar ${isDark ? 'dark' : 'light'}`}>
-          <span>9:41</span>
-          <div className="status-icons">
-            <span>•••</span>
-            <span>{page === 'dashboard' ? 'WiFi' : ''}</span>
-            <span>🔋</span>
-          </div>
-        </div>
+        
 
         {/* Page content */}
         <div className="screen" style={{ background: isDark ? '#0d0d0d' : '#f2f2f7' }}>

@@ -35,10 +35,8 @@ body {
   width: 390px;
   height: 844px;
   background: var(--bg-light);
-  border-radius: 50px;
   overflow: hidden;
   position: relative;
-  box-shadow: 0 40px 80px rgba(0,0,0,0.25), 0 0 0 12px #1a1a1a, 0 0 0 14px #333;
 }
 
 .phone-shell.dark {
