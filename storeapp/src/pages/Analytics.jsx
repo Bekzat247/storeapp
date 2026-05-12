@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { getProducts } from '../data/storage';
+
 
 const weekData = [
   { day: 'Mon', revenue: 620 },
